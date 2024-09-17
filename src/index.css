@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #CCC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-text {
+  color: black;
+  font-size: 48px;
+}
+
+.header-tag-red {
+  width: fit-content;
+  color: white;
+  background-color: #FF0000;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.header-tag-green {
+  width: fit-content;
+  color: white;
+  background-color: #008000;
+  border-radius: 8px;
+  padding: 10px
+}
+
+.container-items {
+  margin: 0px;
+  display: flex;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
