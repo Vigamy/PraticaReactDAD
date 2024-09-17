@@ -1,9 +1,9 @@
 import styles from './RedFree.module.css'
 
-function RedFree() {
+function RedFree(props) {
     return(
         <div className={styles.container}>
-            <h1>FREE</h1>
+            <h1>{props.name}</h1>
             <ul className={styles.lista}>
                 <li>PNG templates</li>
                 <li>Figma responsive
@@ -11,7 +11,7 @@ function RedFree() {
                 <li>Constant updates</li>
                 <li>Custom templates</li>
             </ul>
-            <h1>$0</h1>
+            <h1>${props.preco}</h1>
             <h6>Per month</h6>
             <button>Try now </button>
         </div>

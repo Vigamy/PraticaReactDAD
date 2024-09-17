@@ -11,7 +11,7 @@ function App() {
       <h1 className="header-text">PLANS +</h1>
       <div className="header-tag-red">red</div>
       <div className="container-items">
-        <RedFree/>
+        <RedFree name={"FREE"} preco={"0"}/>
         <RedPremium/>
         <RedPro/>
       </div>
